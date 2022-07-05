@@ -1,0 +1,22 @@
+{
+  "name": "@rttyb/chrome",
+  "version": "0.1.0",
+  "description": "Stop forgetting about those bookmarks you created when researching that thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "tailwindcss -i ./assets/input.css -o ./popup/output.css --watch"
+  },
+  "keywords": [
+    "chrome",
+    "bookmarks",
+    "browser"
+  ],
+  "author": "George Bockari <bitwhys@cr8iv.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "chrome-types": "^0.1.120",
+    "tailwindcss": "^3.1.4"
+  }
+}

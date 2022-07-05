@@ -1,0 +1,34 @@
+{
+  "name": "root",
+  "author": "George Bockari <bitwhys@cr8iv.io>",
+  "description": "Monorepo for Remember That Thing You Bookmarked",
+  "licence": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monorepo",
+    "chrome",
+    "firefox",
+    "browser",
+    "extension",
+    "addon",
+    "safari",
+    "bookmarks"
+  ],
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "lerna": "^5.1.6",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Remember That Thing You Bookmarked",
+  "description": "Stop forgetting about those bookmarks you created when researching that thing",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "256": "assets/images/logo.png"
+  },
+  "background": {
+    "service_worker": "background/background-script.js"
+  },
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "permissions": ["bookmarks"]
+}
