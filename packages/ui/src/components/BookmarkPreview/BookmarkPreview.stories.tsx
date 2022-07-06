@@ -38,6 +38,6 @@ WithoutFavicon.args = {
   category: bookmarkInfo.category,
   favicon: undefined,
 }
-// export const Secondary = () => <BookmarkPreview theme="secondary" />
+// export const Secondary = () => <BookmarkFeedItem theme="secondary" />
 
 export default meta
