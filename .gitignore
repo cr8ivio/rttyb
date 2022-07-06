@@ -77,11 +77,11 @@ web_modules/
 .cache
 .parcel-cache
 
-# Next.js build output
+# Next.js build-old output
 .next
 out
 
-# Nuxt.js build / generate output
+# Nuxt.js build-old / generate output
 .nuxt
 dist
 
@@ -91,7 +91,7 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
+# vuepress build-old output
 .vuepress/dist
 
 # Serverless directories
